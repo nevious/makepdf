@@ -1,0 +1,17 @@
+*makepdf*	A simple PDF generating pluginf or markdown files
+=============================================================
+1. Intro
+
+A simple vim-plugin to generate PDFs from markdown files
+using Makefiles.
+=============================================================
+2. Commands
+
+:Makepdf[NoRedraw]
+	Silently generate a PDF of the current file (%:p). The PDF
+	generated is placed in the same directory. Whitespaced are 
+	replaced with '_' and the ending is '.pdf'. 
+
+:Viewpdf[NoRedraw]
+	View PDF using configured viewer. The viever itself is
+	configured in the Makefile.
